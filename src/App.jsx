@@ -1,12 +1,13 @@
-import Header from './components/haeder/Header'
-import Banner from './components/banner/Banner'
-
+import Header from "./components/haeder/Header";
+import Banner from "./components/banner/Banner";
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
+      <main className="px-5 max-w-screen-2xl mx-auto">
+        <Header />
+        <Banner />
+      </main>
     </>
   );
 }
