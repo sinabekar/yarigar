@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: {
+      base: "/yarigar/",
       plugins: [tailwindcss()],
-      base: "/yarigar/"
+      
     },
   },
 });
